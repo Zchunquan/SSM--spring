@@ -16,6 +16,7 @@ public class IndexHandler {
 	
 	@RequestMapping(value={"tosuccess"},method=RequestMethod.GET)
 	public String tosuccess(){
+		1111111111
 		int count = userService.selectcountbyorderno();
 		System.out.println(count);
 		return "success";
